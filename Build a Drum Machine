@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum Machine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Drum Machine</h1>
+    <div id="drum-pads">
+      <button class="drum-pad" id="q" data-sound="kick">Q</button>
+      <button class="drum-pad" id="w" data-sound="snare">W</button>
+      <button class="drum-pad" id="e" data-sound="hihat">E</button>
+      <button class="drum-pad" id="a" data-sound="tom1">A</button>
+      <button class="drum-pad" id="s" data-sound="tom2">S</button>
+      <button class="drum-pad" id="d" data-sound="tom3">D</button>
+      <button class="drum-pad" id="z" data-sound="clap">Z</button>
+      <button class="drum-pad" id="x" data-sound="crash">X</button>
+      <button class="drum-pad" id="c" data-sound="ride">C</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
